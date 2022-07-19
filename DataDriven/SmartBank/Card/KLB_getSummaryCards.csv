@@ -1,0 +1,7 @@
+test.id,http.path,test.level,test.objective,test.bankCif_csv,test.idCard_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,card/getSummaryCards,regesstion,Empty - bankCif,,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+2,card/getSummaryCards,regesstion,Empty - idCard,getapi,,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+3,card/getSummaryCards,regesstion,Empty - all field,,,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+4,card/getSummaryCards,regesstion,Invalid - bankCif,2324,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,active,group_syntax
+5,card/getSummaryCards,regesstion,Invalid - idCard,getapi,23424,4005227,Số CMND không đúng,200,active,group_syntax
+6,card/getSummaryCards,regesstion,Invalid - all field,23234,2342,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,active,group_syntax

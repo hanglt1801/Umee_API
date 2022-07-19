@@ -1,0 +1,21 @@
+test.id,http.path,test.level,test.objective,test.supplier_id_csv,test.customer_code_csv,test.customerAddress_csv,test.isSavedNextTime_csv,test.bankCif_csv,test.accountNo_csv,test.otp_csv,test.billIds_csv,test.amount_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,invoice,regression,Empty - test.supplier_id,,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+2,invoice,regression,Empty - test.customer_code,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,getapi,5000000,Không tìm thấy mã khách hàng này. Vui lòng kiểm tra lại mã khách hàng hoặc dịch vụ bạn đang thanh toán,200,active,group_syntax
+3,invoice,regression,Empty - test.isSavedNextTime,getapi,getapi,getapi,,getapi,getapi,getapi,getapi,getapi,400,Required UUID parameter 'supplier_id' is not present,200,active,group_syntax
+4,invoice,regression,Empty - test.bankCif,getapi,getapi,getapi,getapi,,getapi,getapi,getapi,getapi,4005021,Vui lòng nhập đầy đủ thông tin,200,active,group_syntax
+5,invoice,regression,Empty - test.accountNo,getapi,getapi,getapi,getapi,getapi,,getapi,getapi,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+6,invoice,regression,Empty - test.otp,getapi,getapi,getapi,getapi,getapi,getapi,,getapi,getapi,4000001,Sai mã OTP. Xác thực giao dịch bằng SMS OTP sẽ tạm khóa trong 15 phút nếu sai mã OTP 3 lần,200,active,group_syntax
+7,invoice,regression,Empty - test.billIds,getapi,getapi,getapi,getapi,getapi,getapi,getapi,,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+8,invoice,regression,Empty - all Field,,,,,,,,,,,,200,active,group_syntax
+9,invoice,regression,Invalid - test.supplier_id,3436,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+10,invoice,regression,Invalid - test.customer_code,getapi,3436,getapi,getapi,getapi,getapi,getapi,getapi,getapi,4040012,Không tìm thấy mã khách hàng này. Vui lòng kiểm tra lại mã khách hàng hoặc dịch vụ bạn đang thanh toán,200,active,group_syntax
+11,invoice,regression,Invalid - test.isSavedNextTime,getapi,getapi,getapi,345,getapi,getapi,getapi,getapi,getapi,,,200,active,group_syntax
+12,invoice,regression,Invalid - test.bankCif,getapi,getapi,getapi,getapi,345,getapi,getapi,getapi,getapi,4005021,Vui lòng nhập đầy đủ thông tin,200,active,group_syntax
+13,invoice,regression,Invalid - test.accountNo,getapi,getapi,getapi,getapi,getapi,345,getapi,getapi,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+14,invoice,regression,Invalid - test.otp,getapi,getapi,getapi,getapi,getapi,getapi,3435,getapi,getapi,4000001,Sai mã OTP. Xác thực giao dịch bằng SMS OTP sẽ tạm khóa trong 15 phút nếu sai mã OTP 3 lần,200,active,group_syntax
+15,invoice,regression,Invalid - test.billIds,getapi,getapi,getapi,getapi,getapi,getapi,getapi,345,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+16,invoice,regression,Invalid - all Field,345,35,354,345,3453,345,345,345,0,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+17,invoice,regression,Empty - test.customerAddress,getapi,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,200,Success,200,INACTIVE,group_syntax
+18,invoice,regression,Empty - test.amount,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,,200,Success,200,INACTIVE,group_syntax
+19,invoice,regression,Invalid - test.customerAddress,getapi,getapi,345,getapi,getapi,getapi,getapi,getapi,getapi,200,Success,200,INACTIVE,group_syntax
+20,invoice,regression,Invalid - test.amount,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,0,200,Success,200,INACTIVE,group_syntax

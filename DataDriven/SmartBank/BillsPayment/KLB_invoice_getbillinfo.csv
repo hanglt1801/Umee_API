@@ -1,0 +1,9 @@
+test.id,http.path,test.level,test.objective,test.supplier_id_csv,test.customer_code_csv,test.bankCif_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,invoice,regression,Empty - supplier_id,,getapi,getapi,400,Required UUID parameter 'supplier_id' is not present,200,active,group_syntax
+2,invoice,regression,Empty - customer_code,getapi,,getapi,5000000,Không tìm thấy mã khách hàng này. Vui lòng kiểm tra lại mã khách hàng hoặc dịch vụ bạn đang thanh toán,200,active,group_syntax
+3,invoice,regression,Empty - bankCif,getapi,getapi,,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,active,group_syntax
+4,invoice,regression,Empty - all field,,,,400,Required UUID parameter 'supplier_id' is not present,200,active,group_syntax
+5,invoice,regression,Invalid - supplier_id,3463645664,getapi,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+6,invoice,regression,Invalid - customer_code,getapi,45745464,getapi,4040012,Không tìm thấy mã khách hàng này. Vui lòng kiểm tra lại mã khách hàng hoặc dịch vụ bạn đang thanh toán,200,active,group_syntax
+7,invoice,regression,Invalid - bankCif,getapi,getapi,456464,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,active,group_syntax
+8,invoice,regression,Invalid - all field,5474,546,4564,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax

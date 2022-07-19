@@ -1,0 +1,11 @@
+test.id,http.path,test.level,test.objective,test.bankCif_csv,test.bankCode_csv,test.accountNo_csv,test.isAccount_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,GetBeneficiary,regression,Empty - bankCif,,getapi,getapi,getapi,200,200,200,Inactive,group_syntax
+2,GetBeneficiary,integration,Empty - bankCode,getapi,,getapi,getapi,200,200,200,Inactive,group_syntax
+3,GetBeneficiary,regression,Empty - accountNo,getapi,getapi,,getapi,400,Số tài khoản nguồn chưa đúng,200,active,group_syntax
+4,GetBeneficiary,regression,Empty - isAccount,getapi,getapi,getapi,,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+5,GetBeneficiary,integration,Empty - all field,,,,,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax
+6,GetBeneficiary,integration,Invalid - bankCif,5464664545646456,getapi,getapi,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,active,group_syntax
+7,GetBeneficiary,integration,Invalid - bankCode,getapi,45646464,getapi,getapi,4005091,Không thể kết nối với ngân hàng phát hành, đề nghị thử lại sau,200,active,group_syntax
+8,GetBeneficiary,integration,Invalid - accountNo,getapi,getapi,4564646,getapi,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+9,GetBeneficiary,integration,Invalid - isAccount,getapi,getapi,getapi,45646,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+10,GetBeneficiary,integration,Invalid - all field,4564,4564,45646,4564,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax

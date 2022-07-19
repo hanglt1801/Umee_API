@@ -1,0 +1,15 @@
+test.id,http.path,test.level,test.objective,test.paymentType_csv,test.sourceAccountNo_csv,test.bankCif_csv,test.refCardId_csv,test.cardNo_csv,test.amount_csv,test.note_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,card/reviewPayment,regesstion,Empty - paymentType,,getapi,getapi,getapi,getapi,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+2,card/reviewPayment,regesstion,Empty - sourceAccountNo,getapi,,getapi,getapi,getapi,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+3,card/reviewPayment,regesstion,Empty - cifNo,getapi,getapi,,getapi,getapi,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+4,card/reviewPayment,regesstion,Empty - refCardId,getapi,getapi,getapi,,getapi,getapi,getapi,4005021,Vui lòng nhập đầy đủ thông tin,200,INACTIVE,group_syntax
+5,card/reviewPayment,regesstion,Empty - cardNo,getapi,getapi,getapi,getapi,,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+6,card/reviewPayment,regesstion,Empty - amount,getapi,getapi,getapi,getapi,getapi,,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+7,card/reviewPayment,regesstion,Empty - all field,,,,,,,,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+8,card/reviewPayment,regesstion,Invalid - paymentType,3453,getapi,getapi,getapi,getapi,getapi,getapi,4000000,Xin lỗi quý khách, chúng tôi chưa hỗ trợ thanh toán nợ thẻ tín dụng của ngân hàng khác. Vui lòng thử lại sau.,200,INACTIVE,group_syntax
+9,card/reviewPayment,regesstion,Invalid - sourceAccountNo,getapi,345,getapi,getapi,getapi,getapi,getapi,4005028,Thông tin tài khoản không hợp lệ.,200,INACTIVE,group_syntax
+10,card/reviewPayment,regesstion,Invalid - cifNo,getapi,getapi,345,getapi,getapi,getapi,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,201,INACTIVE,group_syntax
+11,card/reviewPayment,regesstion,Invalid - refCardId,getapi,getapi,getapi,345,getapi,getapi,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,202,INACTIVE,group_syntax
+12,card/reviewPayment,regesstion,Invalid - cardNo,getapi,getapi,getapi,getapi,345,getapi,getapi,400,Thông tin số thẻ tín dụng không đúng. Vui lòng nhập lại số thẻ,203,INACTIVE,group_syntax
+13,card/reviewPayment,regesstion,Invalid - amount,getapi,getapi,getapi,getapi,getapi,0,getapi,4005043,Số tiền chuyển lớn hơn 1.000 VND,204,INACTIVE,group_syntax
+14,card/reviewPayment,regesstion,Invalid - all field,345,345,345,35,345,345,getapi,400,Thông tin số thẻ tín dụng không đúng. Vui lòng nhập lại số thẻ,205,INACTIVE,group_syntax

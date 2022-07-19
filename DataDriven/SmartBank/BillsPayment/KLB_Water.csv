@@ -1,0 +1,65 @@
+test.id,http.path,test.level,test.objective,test.customer_code_csv,test.stt_i,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,invoice/v1/invoice/PAYOO,regression,Cấp nước Bến Thành,BT95625423,0,2000000,Thực hiện thành công,200,active,successCase
+2,invoice/v1/invoice/PAYOO,regression,Cấp nước chợ lớn,08097550017,1,2000000,Thực hiện thành công,200,active,successCase
+3,invoice/v1/invoice/PAYOO,regression,Cấp nước nhà bè,CNNB65245235,2,2000000,Thực hiện thành công,200,active,successCase
+4,invoice/v1/invoice/PAYOO,regression,Cấp nước Phú Hòa Tân,PHT20073112,3,2000000,Thực hiện thành công,200,active,successCase
+5,invoice/v1/invoice/PAYOO,regression,Cấp nước Tân Hòa,CNTH984754,4,2000000,Thực hiện thành công,200,active,successCase
+6,invoice/v1/invoice/PAYOO,regression,Cấp nước Thủ đức,,,2000000,Thực hiện thành công,200,active,successCase
+7,invoice/v1/invoice/PAYOO,regression,Cấp nước Trung An,CNTA763543,5,2000000,Thực hiện thành công,200,active,successCase
+8,invoice/v1/invoice/PAYOO,regression,Cấp nước Gia Định,GD847566474,6,2000000,Thực hiện thành công,200,active,successCase
+9,invoice/v1/invoice/PAYOO,regression,Cấp nước Huế,HUE07201000,,7,2000000,Thực hiện thành công,200,active,successCase
+10,invoice/v1/invoice/PAYOO,regression,Cấp nước VIWACO,,8,2000000,Thực hiện thành công,200,active,successCase
+11,invoice/v1/invoice/PAYOO,regression,Cấp nước Hải Phòng,NHP60720004,9,2000000,Thực hiện thành công,200,active,successCase
+12,invoice/v1/invoice/PAYOO,regression,Cấp nước Đồng Nai,AI8374653,10,2000000,Thực hiện thành công,200,active,successCase
+13,invoice/v1/invoice/PAYOO,regression,Cấp nước Long Khánh,,11,2000000,Thực hiện thành công,200,active,successCase
+14,invoice/v1/invoice/PAYOO,regression,Cấp nước Nhơn Trạch,,12,2000000,Thực hiện thành công,200,active,successCase
+15,invoice/v1/invoice/PAYOO,regression,DVXD Cấp nước Đồng Nai,,13,2000000,Thực hiện thành công,200,active,successCase
+16,invoice/v1/invoice/PAYOO,regression,Cấp nước Bà Rịa - Vũng Tàu,,14,2000000,Thực hiện thành công,200,active,successCase
+17,invoice/v1/invoice/PAYOO,regression,Cấp nước Phú Mỹ,PM2568950,15,2000000,Thực hiện thành công,200,active,successCase
+18,invoice/v1/invoice/PAYOO,regression,Cấp nước Quảng Nam,,16,2000000,Thực hiện thành công,200,active,successCase
+19,invoice/v1/invoice/PAYOO,regression,Cấp nước Đà Nẵng,9545250,17,2000000,Thực hiện thành công,200,active,successCase
+20,invoice/v1/invoice/PAYOO,regression,SAIGONWATER,,18,2000000,Thực hiện thành công,200,active,successCase
+21,invoice/v1/invoice/PAYOO,regression,Cấp nước Bình Dương,,19,2000000,Thực hiện thành công,200,active,successCase
+22,invoice/v1/invoice/PAYOO,regression,Cấp nước Bình Thuận,,20,2000000,Thực hiện thành công,200,active,successCase
+23,invoice/v1/invoice/PAYOO,regression,Cấp nước Cần Thơ,CT365845625,21,2000000,Thực hiện thành công,200,active,successCase
+24,invoice/v1/invoice/PAYOO,regression,Cấp nước Cần Thơ 2,,22,2000000,Thực hiện thành công,200,active,successCase
+25,invoice/v1/invoice/PAYOO,regression,Cấp nước Trà Nóc-Ô Môn,NOC6653254,23,2000000,Thực hiện thành công,200,active,successCase
+26,invoice/v1/invoice/PAYOO,regression,Cấp nước Bến Tre,BTR1212121,24,2000000,Thực hiện thành công,200,active,successCase
+27,invoice/v1/invoice/PAYOO,regression,Cấp nước Đắk Lắk,DL6522535,25,2000000,Thực hiện thành công,200,active,successCase
+28,invoice/v1/invoice/PAYOO,regression,Cấp nước Đồng Tháp,,26,2000000,Thực hiện thành công,200,active,successCase
+29,invoice/v1/invoice/PAYOO,regression,Cấp nước Bạc Liêu,BL60720001,27,2000000,Thực hiện thành công,200,active,successCase
+30,invoice/v1/invoice/PAYOO,regression,Cấp nước Khánh Hòa,,28,2000000,Thực hiện thành công,200,active,successCase
+31,invoice/v1/invoice/PAYOO,regression,Cấp nước Long An,LAN1231454,29,2000000,Thực hiện thành công,200,active,successCase
+32,invoice/v1/invoice/PAYOO,regression,Cấp nước Tiền Giang,,30,2000000,Thực hiện thành công,200,active,successCase
+33,invoice/v1/invoice/PAYOO,regression,Cấp nước Trà Vinh,,31,2000000,Thực hiện thành công,200,active,successCase
+34,invoice/v1/invoice/PAYOO,regression,Cấp nước Tây Ninh,,32,2000000,Thực hiện thành công,200,active,successCase
+35,invoice/v1/invoice/PAYOO,regression,Cấp Nước Lâm Đồng,LD985623325,33,2000000,Thực hiện thành công,200,active,successCase
+36,invoice/v1/invoice/PAYOO,regression,Cấp nước Cam Ranh,CR66523526,34,2000000,Thực hiện thành công,200,active,successCase
+37,invoice/v1/invoice/PAYOO,regression,Nước số 3 Hà Nội,SO365215,35,2000000,Thực hiện thành công,200,active,successCase
+38,invoice/v1/invoice/PAYOO,regression,Cấp nước số 2 Hải Phòng,,36,2000000,Thực hiện thành công,200,active,successCase
+39,invoice/v1/invoice/PAYOO,regression,Nước sạch Hà Nội,,37,2000000,Thực hiện thành công,200,active,successCase
+40,invoice/v1/invoice/PAYOO,regression,Cấp nước Sơn Tây,90008278,38,2000000,Thực hiện thành công,200,active,successCase
+41,invoice/v1/invoice/PAYOO,regression,Nước sạch VTS,,39,2000000,Thực hiện thành công,200,active,successCase
+42,invoice/v1/invoice/PAYOO,regression,WaDaco - Công ty nước sạch Tây Hà Nội,,40,2000000,Thực hiện thành công,200,active,successCase
+43,invoice/v1/invoice/PAYOO,regression,Cấp nước số 2 Hà Nội,GDT0600674,41,2000000,Thực hiện thành công,200,active,successCase
+44,invoice/v1/invoice/PAYOO,regression,Công ty TNHH MTV Dịch vụ nhà ở và Khu đô thị,HDS6352451,42,2000000,Thực hiện thành công,200,active,successCase
+45,invoice/v1/invoice/PAYOO,regression,Nước Đồng Tiến Thành Thủ Đô,DTT65958,43,2000000,Thực hiện thành công,200,active,successCase
+46,invoice/v1/invoice/PAYOO,regression,Nước sạch Hà Đông,,44,2000000,Thực hiện thành công,200,active,successCase
+47,invoice/v1/invoice/PAYOO,regression,Cấp nước Thốt Nốt,,45,2000000,Thực hiện thành công,200,active,successCase
+48,invoice/v1/invoice/PAYOO,regression,Cấp nước Vĩnh Long,,46,2000000,Thực hiện thành công,200,active,successCase
+49,invoice/v1/invoice/PAYOO,regression,Cấp nước Kon Tum,,47,2000000,Thực hiện thành công,200,active,successCase
+50,invoice/v1/invoice/PAYOO,regression,Cấp nước Bình Phước,,48,2000000,Thực hiện thành công,200,active,successCase
+51,invoice/v1/invoice/PAYOO,regression,Cấp nước Gia Lai,,49,2000000,Thực hiện thành công,200,active,successCase
+52,invoice/v1/invoice/PAYOO,regression,Cấp nước Quảng Trị,QTRI4885550,50,2000000,Thực hiện thành công,200,active,successCase
+53,invoice/v1/invoice/PAYOO,regression,Cấp nước Cao Bằng,,51,2000000,Thực hiện thành công,200,active,successCase
+54,invoice/v1/invoice/PAYOO,regression,Cấp nước Sơn La,,52,2000000,Thực hiện thành công,200,active,successCase
+55,invoice/v1/invoice/PAYOO,regression,Cấp nước Hà Nam,HN8873634,53,2000000,Thực hiện thành công,200,active,successCase
+56,invoice/v1/invoice/PAYOO,regression,Cấp nước Lai Châu,,54,2000000,Thực hiện thành công,200,active,successCase
+57,invoice/v1/invoice/PAYOO,regression,Cấp nước Hưng Yên,TPHY04236,55,2000000,Thực hiện thành công,200,active,successCase
+58,invoice/v1/invoice/PAYOO,regression,Cấp nước Bắc Giang,,56,2000000,Thực hiện thành công,200,active,successCase
+59,invoice/v1/invoice/PAYOO,regression,Nước sạch Hòa Bình,HB1212000,57,2000000,Thực hiện thành công,200,active,successCase
+60,invoice/v1/invoice/PAYOO,regression,Cấp nước Quảng Ninh,,58,2000000,Thực hiện thành công,200,active,successCase
+61,invoice/v1/invoice/PAYOO,regression,Nước sạch Nghệ An,NA873647364,59,2000000,Thực hiện thành công,200,active,successCase
+62,invoice/v1/invoice/PAYOO,regression,Nước sạch Vĩnh Phúc,,60,2000000,Thực hiện thành công,200,active,successCase
+63,invoice/v1/invoice/PAYOO,regression,Cấp nước Nam Định,NAMD652352,61,2000000,Thực hiện thành công,200,active,successCase
+64,invoice/v1/invoice/PAYOO,regression,Cấp nước Điện Biên,DBIEN6523524,62,2000000,Thực hiện thành công,200,active,successCase

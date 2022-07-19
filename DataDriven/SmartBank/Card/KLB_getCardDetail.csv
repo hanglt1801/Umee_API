@@ -1,0 +1,11 @@
+test.id,http.path,test.level,test.objective,test.bankCif_csv,test.refCardId_csv,test.cardNo_csv,test.productTypeCode_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,card/getCardDetail,regesstion,Empty - bankCif,,getapi,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+2,card/getCardDetail,regesstion,Empty - refCardId,getapi,,getapi,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+3,card/getCardDetail,regesstion,Empty - cardNo,getapi,getapi,,getapi,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+4,card/getCardDetail,regesstion,Empty - productTypeCode,getapi,getapi,getapi,,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+5,card/getCardDetail,regesstion,Empty - all field,,,,,400,javax.validation.constraints.NotBlank.message,200,INACTIVE,group_syntax
+6,card/getCardDetail,regesstion,Invalid - bankCif,124421,getapi,getapi,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,INACTIVE,group_syntax
+7,card/getCardDetail,regesstion,Invalid - refCardId,getapi,1231,getapi,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,INACTIVE,group_syntax
+8,card/getCardDetail,regesstion,Invalid - cardNo,getapi,getapi,1231,getapi,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,INACTIVE,group_syntax
+9,card/getCardDetail,regesstion,Invalid - productTypeCode,getapi,getapi,getapi,12313,5000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,201,INACTIVE,group_syntax
+10,card/getCardDetail,regesstion,Invalid - all field,34535,123,1231,123,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,202,INACTIVE,group_syntax

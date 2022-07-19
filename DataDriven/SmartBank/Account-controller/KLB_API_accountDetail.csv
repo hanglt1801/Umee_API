@@ -1,0 +1,7 @@
+test.id,http.path,test.level,test.objective,test.bankCif_csv,test.accountNo_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,/smartbank/accountDetail,regression,Empty - BankCif,,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax
+2,/smartbank/accountDetail,regression,Empty - accountNo,getapi,,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax
+3,/smartbank/accountDetail,regression,Empty - all field,,,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax
+4,/smartbank/accountDetail,regression,Invalid - BankCif,123sdfsfsfsdsfsf,getapi,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax
+5,/smartbank/accountDetail,regression,Invalid - accountNo,getapi,99999986,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax
+6,/smartbank/accountDetail,regression,Invalid - all field,3242,3424242,4030000,Bạn không có quyền thao tác trên tài khoản của người khác,200,getapi,group_syntax

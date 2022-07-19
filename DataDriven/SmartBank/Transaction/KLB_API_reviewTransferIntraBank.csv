@@ -1,0 +1,13 @@
+test.id,http.path,test.level,test.objective,test.cifNo_csv,test.accountNoFrom_csv,test.isAccount_csv,test.accountNoTo_csv,test.amount_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,reviewTransferIntraBank,regression,Empty - cifNo,,getapi,getapi,getapi,getapi,200,200,200,Inactive,group_syntax
+2,reviewTransferIntraBank,integration,Invalid - cifNo,345534,getapi,getapi,getapi,getapi,200,200,200,Inactive,group_syntax
+3,reviewTransferIntraBank,regression,Empty - accountNoFrom,getapi,,getapi,getapi,getapi,400,Số tài khoản nguồn chưa đúng,200,active,group_syntax
+4,reviewTransferIntraBank,regression,Empty - isAccount,getapi,getapi,,getapi,getapi,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+5,reviewTransferIntraBank,regression,Empty - accountNoTo,getapi,getapi,getapi,,getapi,4005021,Vui lòng nhập đầy đủ thông tin,200,active,group_syntax
+6,reviewTransferIntraBank,regression,Empty - amount,getapi,getapi,getapi,getapi,,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax
+7,reviewTransferIntraBank,integration,Empty - all field,,,,,,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax
+8,reviewTransferIntraBank,integration,Invalid - accountNoFrom,getapi,34535,getapi,getapi,getapi,200,200,200,active,group_syntax
+9,reviewTransferIntraBank,integration,Invalid - isAccount,getapi,getapi,34353,getapi,getapi,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+10,reviewTransferIntraBank,integration,Invalid - accountNoTo,getapi,getapi,getapi,34353,getapi,4005192,Người thụ hưởng không tồn tại. Vui lòng kiểm tra lại,200,active,group_syntax
+11,reviewTransferIntraBank,integration,Invalid - amount,getapi,getapi,getapi,getapi,0,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax
+12,reviewTransferIntraBank,integration,Invalid - all field,454,4564,4564,4564,0,400,Chưa nhập số tiền giao dịch.,200,active,group_syntax

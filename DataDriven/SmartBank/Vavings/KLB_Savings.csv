@@ -1,0 +1,12 @@
+test.id,http.path,test.level,test.objective,test.bankCif_csv,test.amount_csv,test.termId_csv,var_i_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 1T LAI CUOI KY,getapi,getapi,getapi,4,200,Mã ngân hàng không được trống,200,active,successCase
+2,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 2T LAI CUOI KY,getapi,getapi,getapi,5,200,Mã ngân hàng không được trống,200,active,successCase
+3,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 3T LAI CUOI KY,getapi,getapi,getapi,6,200,Mã ngân hàng không được trống,200,active,successCase
+4,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 6T LAI CUOI KY,getapi,getapi,getapi,7,200,Mã ngân hàng không được trống,200,active,successCase
+5,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 9T LAI CUOI KY,getapi,getapi,getapi,8,200,Mã ngân hàng không được trống,200,active,successCase
+6,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 12T LAI CUOI KY,getapi,getapi,getapi,9,200,Mã ngân hàng không được trống,200,active,successCase
+7,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 13T LAI CUOI KY,getapi,getapi,getapi,10,200,Mã ngân hàng không được trống,200,active,successCase
+8,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 15T LAI CUOI KY,getapi,getapi,getapi,11,200,Mã ngân hàng không được trống,200,active,successCase
+9,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 18T LAI CUOI KY,getapi,getapi,getapi,12,200,Mã ngân hàng không được trống,200,active,successCase
+10,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 24T LAI CUOI KY,getapi,getapi,getapi,13,200,Mã ngân hàng không được trống,200,active,successCase
+11,calculateInterestOnlineSaving,regesstion,TK TRUC TUYEN 36T LAI CUOI KY,getapi,getapi,getapi,14,200,Mã ngân hàng không được trống,200,active,successCase
