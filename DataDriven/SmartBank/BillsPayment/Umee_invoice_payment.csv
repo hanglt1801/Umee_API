@@ -1,0 +1,19 @@
+test.id,http.path,test.level,test.objective,test.supplier_id_csv,test.customer_code_csv,test.customerName_csv,test.customerAddress_csv,test.isSavedNextTime_csv,test.accountNo_csv,test.otp_csv,test.billIds_csv,test.amount_csv,response.code_csv,response.message_csv,response.http_code_csv,active_or_not,groupcase
+1,invoice,regression,Empty - test.supplier_id,,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,COMM0002,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+2,invoice,regression,Empty - test.customer_code,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,getapi,SMBA0901,Bạn không có hóa đơn cần thanh toán.,200,active,group_syntax
+3,invoice,regression,Empty - test.customerName,getapi,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,SMBA0901,Bạn không có hóa đơn cần thanh toán.,200,active,group_syntax
+4,invoice,regression,Empty - test.customerAddress,getapi,getapi,getapi,,getapi,getapi,getapi,getapi,getapi,SMBA0901,Bạn không có hóa đơn cần thanh toán.,200,active,group_syntax
+5,invoice,regression,Empty - test.accountNo,getapi,getapi,getapi,getapi,getapi,,getapi,getapi,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+6,invoice,regression,Empty - test.otp,getapi,getapi,getapi,getapi,getapi,getapi,,getapi,getapi,COMM0005,Yêu cầu không hợp lệ.,200,active,group_syntax
+7,invoice,regression,Empty - test.billIds,getapi,getapi,getapi,getapi,getapi,getapi,getapi,,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+8,invoice,regression,Empty - test.amount,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,0,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+9,invoice,regression,Empty - all Field,,,,,,,,,,COMM0005,Yêu cầu không hợp lệ.,200,active,group_syntax
+10,invoice,regression,Invalid - test.supplier_id,3453,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,COMM0002,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+11,invoice,regression,Invalid - test.customer_code,getapi,224,getapi,getapi,getapi,getapi,getapi,getapi,getapi,SMBA0902,Mã khách hàng không tồn tại.,200,active,group_syntax
+12,invoice,regression,Invalid - test.customerName,getapi,getapi,nguyen,getapi,getapi,getapi,getapi,getapi,getapi,,,200,active,group_syntax
+13,invoice,regression,Invalid - test.customerAddress,getapi,getapi,getapi,23255,getapi,getapi,getapi,getapi,getapi,4000000,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,active,group_syntax
+14,invoice,regression,Invalid - test.accountNo,getapi,getapi,getapi,getapi,getapi,353,getapi,getapi,getapi,SMBA0300,Không tìm thấy tài khoản.,200,active,group_syntax
+15,invoice,regression,Invalid - test.otp,getapi,getapi,getapi,getapi,getapi,getapi,345455,getapi,getapi,PROF0075,Xác thực giao dịch bằng OTP tạm khóa trong 15 phút do sai mã OTP 3 lần.,200,active,group_syntax
+16,invoice,regression,Invalid - test.billIds,getapi,getapi,getapi,getapi,getapi,getapi,getapi,23,getapi,200,Success,200,INACTIVE,group_syntax
+17,invoice,regression,Invalid - test.amount,getapi,getapi,getapi,getapi,getapi,getapi,getapi,getapi,242,200,Success,200,INACTIVE,group_syntax
+18,invoice,regression,Invalid - all Field,345,3453,345,3453,345,3453,3453,3543,345,COMM0002,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,200,INACTIVE,group_syntax
