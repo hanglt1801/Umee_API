@@ -1,49 +1,49 @@
 test.id,http.path,test.level,test.objective,var_i_csv,test.rate_csv,test.name_csv,test.id_csv,test.finalTypeId_csv,test.amount_csv,response.code_csv,response.success_csv,active_or_not,groupcase
-1,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY - Phương thức TT: 1,0,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,1,4000000,COMM0001,true,active,successCase
-2,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY - Phương thức TT: 1,1,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,1,4000000,COMM0001,true,active,successCase
-3,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY - Phương thức TT: 1,2,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,1,4000000,COMM0001,true,active,successCase
-4,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY -  Phương thức TT: 1,3,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,1,4000000,COMM0001,true,active,successCase
-5,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY - Phương thức TT: 1,4,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,1,5000000,COMM0001,true,active,successCase
-6,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY - Phương thức TT: 1,5,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,1,6000000,COMM0001,true,active,successCase
-7,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY - Phương thức TT: 1,6,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,1,7000000,COMM0001,true,active,successCase
-8,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY - Phương thức TT: 1,7,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,1,8000000,COMM0001,true,active,successCase
-9,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY - Phương thức TT: 1,8,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,1,9000000,COMM0001,true,active,successCase
-10,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY - Phương thức TT: 1,9,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,1,10000000,COMM0001,true,active,successCase
-11,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY - Phương thức TT: 1,10,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,1,11000000,COMM0001,true,active,successCase
-12,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK - Phương thức TT: 1,11,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,1,12000000,COMM0001,true,active,successCase
-13,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK - Phương thức TT: 1,12,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,1,13000000,COMM0001,true,active,successCase
-14,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK - Phương thức TT: 1,13,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,1,14000000,COMM0001,true,active,successCase
-15,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK - Phương thức TT: 1,14,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,1,15000000,COMM0001,true,active,successCase
-16,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY - Phương thức TT: 2,0,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,2,16000000,COMM0001,true,active,successCase
-17,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY - Phương thức TT: 2,1,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,2,17000000,COMM0001,true,active,successCase
-18,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY - Phương thức TT: 2,2,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,2,18000000,COMM0001,true,active,successCase
-19,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY - Phương thức TT: 2,3,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,2,19000000,COMM0001,true,active,successCase
-20,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY - Phương thức TT: 2,4,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,2,20000000,COMM0001,true,active,successCase
-21,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY - Phương thức TT: 2,5,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,2,21000000,COMM0001,true,active,successCase
-22,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY - Phương thức TT: 2,6,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,2,22000000,COMM0001,true,active,successCase
-23,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY - Phương thức TT: 2,7,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,2,23000000,COMM0001,true,active,successCase
-24,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY - Phương thức TT: 2,8,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,2,24000000,COMM0001,true,active,successCase
-25,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY - Phương thức TT: 2,9,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,2,25000000,COMM0001,true,active,successCase
-26,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY - Phương thức TT: 2,10,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,2,26000000,COMM0001,true,active,successCase
-27,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK - Phương thức TT: 2,11,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,2,27000000,COMM0001,true,active,successCase
-28,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK - Phương thức TT: 2,12,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,2,28000000,COMM0001,true,active,successCase
-29,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK - Phương thức TT: 2,13,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,2,29000000,COMM0001,true,active,successCase
-30,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK - Phương thức TT: 2,14,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,2,30000000,COMM0001,true,active,successCase
-31,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY - Phương thức TT: 3,0,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,3,31000000,COMM0001,true,active,successCase
-32,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY - Phương thức TT: 3,1,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,3,32000000,COMM0001,true,active,successCase
-33,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY - Phương thức TT: 3,2,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,3,33000000,COMM0001,true,active,successCase
-34,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY - Phương thức TT: 3,3,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,3,34000000,COMM0001,true,active,successCase
-35,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY - Phương thức TT: 3,4,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,3,35000000,COMM0001,true,active,successCase
-36,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY - Phương thức TT: 3,5,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,3,36000000,COMM0001,true,active,successCase
-37,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY - Phương thức TT: 3,6,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,3,37000000,COMM0001,true,active,successCase
-38,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY - Phương thức TT: 3,7,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,3,38000000,COMM0001,true,active,successCase
-39,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY - Phương thức TT: 3,8,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,3,39000000,COMM0001,true,active,successCase
-40,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY - Phương thức TT: 3,9,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,3,40000000,COMM0001,true,active,successCase
-41,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY - Phương thức TT: 3,10,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,3,41000000,COMM0001,true,active,successCase
-42,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK - Phương thức TT: 3,11,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,3,42000000,COMM0001,true,active,successCase
-43,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK - Phương thức TT: 3,12,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,3,43000000,COMM0001,true,active,successCase
-44,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK - Phương thức TT: 3,13,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,3,44000000,COMM0001,true,active,successCase
-45,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK - Phương thức TT: 3,14,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,3,45000000,COMM0001,true,active,successCase
+1,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK-PTTT 1,0,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,1,4000000,COMM0001,true,active,successCase
+2,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK-PTTT 1,1,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,1,4000000,COMM0001,true,active,successCase
+3,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK-PTTT 1,2,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,1,4000000,COMM0001,true,active,successCase
+4,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK-PTTT 1,3,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,1,4000000,COMM0001,true,active,successCase
+5,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY-PTTT 1,4,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,1,5000000,COMM0001,true,active,successCase
+6,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY-PTTT 1,5,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,1,6000000,COMM0001,true,active,successCase
+7,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY-PTTT 1,6,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,1,7000000,COMM0001,true,active,successCase
+8,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY-PTTT 1,7,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,1,8000000,COMM0001,true,active,successCase
+9,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY-PTTT 1,8,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,1,9000000,COMM0001,true,active,successCase
+10,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY-PTTT 1,9,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,1,10000000,COMM0001,true,active,successCase
+11,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY-PTTT 1,10,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,1,11000000,COMM0001,true,active,successCase
+12,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY-PTTT 1,11,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,1,12000000,COMM0001,true,active,successCase
+13,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY-PTTT 1,12,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,1,13000000,COMM0001,true,active,successCase
+14,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY-PTTT 1,13,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,1,14000000,COMM0001,true,active,successCase
+15,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY-PTTT 1,14,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,1,15000000,COMM0001,true,active,successCase
+16,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK-PTTT 2,0,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,2,16000000,COMM0001,true,active,successCase
+17,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK-PTTT 2,1,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,2,17000000,COMM0001,true,active,successCase
+18,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK-PTTT 2,2,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,2,18000000,COMM0001,true,active,successCase
+19,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK-PTTT 2,3,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,2,19000000,COMM0001,true,active,successCase
+20,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY-PTTT 2,4,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,2,20000000,COMM0001,true,active,successCase
+21,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY-PTTT 2,5,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,2,21000000,COMM0001,true,active,successCase
+22,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY-PTTT 2,6,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,2,22000000,COMM0001,true,active,successCase
+23,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY-PTTT 2,7,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,2,23000000,COMM0001,true,active,successCase
+24,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY-PTTT 2,8,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,2,24000000,COMM0001,true,active,successCase
+25,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY-PTTT 2,9,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,2,25000000,COMM0001,true,active,successCase
+26,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY-PTTT 2,10,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,2,26000000,COMM0001,true,active,successCase
+27,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY-PTTT 2,11,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,2,27000000,COMM0001,true,active,successCase
+28,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY-PTTT 2,12,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,2,28000000,COMM0001,true,active,successCase
+29,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY-PTTT 2,13,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,2,29000000,COMM0001,true,active,successCase
+30,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY-PTTT 2,14,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,2,30000000,COMM0001,true,active,successCase
+31,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 2T LAI CK-PTTT 3,0,4.0,TEST 2 NGAY TG NEO 2T LAI CK,TNE1,3,31000000,COMM0001,true,active,successCase
+32,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 12T LAI CK-PTTT 3,1,6.8,TEST 2 NGAY TG NEO 12T LAI CK,TNE3,3,32000000,COMM0001,true,active,successCase
+33,/savings/v1/onlineSavings,regesstion,TEST 2 NGAY TG NEO 13T LAI CK-PTTT 3,2,6.9,TEST 2 NGAY TG NEO 13T LAI CK,TNE7,3,33000000,COMM0001,true,active,successCase
+34,/savings/v1/onlineSavings,regesstion,TEST 3 NGAY TG NEO 1T LAI CK-PTTT 3,3,3.8,TEST 3 NGAY TG NEO 1T LAI CK,TNE5,3,34000000,COMM0001,true,active,successCase
+35,/savings/v1/onlineSavings,regesstion,TG NEO KLB 1T LAI CUOI KY-PTTT 3,4,3.8,TG NEO KLB 1T LAI CUOI KY,NE01,3,35000000,COMM0001,true,active,successCase
+36,/savings/v1/onlineSavings,regesstion,TG NEO KLB 2T LAI CUOI KY-PTTT 3,5,4.0,TG NEO KLB 2T LAI CUOI KY,NE02,3,36000000,COMM0001,true,active,successCase
+37,/savings/v1/onlineSavings,regesstion,TG NEO KLB 3T LAI CUOI KY-PTTT 3,6,3.95,TG NEO KLB 3T LAI CUOI KY,NE03,3,37000000,COMM0001,true,active,successCase
+38,/savings/v1/onlineSavings,regesstion,TG NEO KLB 6T LAI CUOI KY-PTTT 3,7,6.0,TG NEO KLB 6T LAI CUOI KY,NE06,3,38000000,COMM0001,true,active,successCase
+39,/savings/v1/onlineSavings,regesstion,TG NEO KLB 9T LAI CUOI KY-PTTT 3,8,6.0,TG NEO KLB 9T LAI CUOI KY,NE09,3,39000000,COMM0001,true,active,successCase
+40,/savings/v1/onlineSavings,regesstion,TG NEO KLB 12T LAI CUOI KY-PTTT 3,9,6.8,TG NEO KLB 12T LAI CUOI KY,NE12,3,40000000,COMM0001,true,active,successCase
+41,/savings/v1/onlineSavings,regesstion,TG NEO KLB 13T LAI CUOI KY-PTTT 3,10,6.9,TG NEO KLB 13T LAI CUOI KY,NE13,3,41000000,COMM0001,true,active,successCase
+42,/savings/v1/onlineSavings,regesstion,TG NEO KLB 15T LAI CUOI KY-PTTT 3,11,7.0,TG NEO KLB 15T LAI CUOI KY,NE15,3,42000000,COMM0001,true,active,successCase
+43,/savings/v1/onlineSavings,regesstion,TG NEO KLB 18T LAI CUOI KY-PTTT 3,12,70.5,TG NEO KLB 18T LAI CUOI KY,NE18,3,43000000,COMM0001,true,active,successCase
+44,/savings/v1/onlineSavings,regesstion,TG NEO KLB 24T LAI CUOI KY-PTTT 3,13,7.05,TG NEO KLB 24T LAI CUOI KY,NE24,3,44000000,COMM0001,true,active,successCase
+45,/savings/v1/onlineSavings,regesstion,TG NEO KLB 36T LAI CUOI KY-PTTT 3,14,7.05,TG NEO KLB 36T LAI CUOI KY,NE36,3,45000000,COMM0001,true,active,successCase
 46,/onlineSavings/reviewOpen,regesstion,Empty - transactionNo,,,,,,,COMM0002,false,active,CheckSyntax
 47,/onlineSavings/reviewOpen,regesstion,Empty - accountNumber,,,,,,,COMM0002,false,active,CheckSyntax
 48,/onlineSavings/reviewOpen,regesstion,Empty - amount,,,,,,,COMM0002,false,active,CheckSyntax

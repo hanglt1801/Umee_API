@@ -1,0 +1,18 @@
+test.id,http.path,test.level,test.objective,test.transactionNo_csv,test.accountNumber_csv,test.amount_csv,test.currency_csv,test.termId_csv,test.rate_csv,test.finalTypeId_csv,test.finalAccountNumber_csv,response.code_csv,response.success_csv,response.message_csv,active_or_not,groupcase
+1,/onlineSavings/reviewOpen,regesstion,Empty - transactionNo,,getapi,getapi,getapi,getapi,getapi,getapi,getapi,CORE0021,false,Quý khách vui lòng nhập đầy đủ thông tin.,active,CheckSyntax
+2,/onlineSavings/reviewOpen,regesstion,Empty - accountNumber,getapi,,getapi,getapi,getapi,getapi,getapi,getapi,CORE0021,false,Quý khách vui lòng nhập đầy đủ thông tin.,active,CheckSyntax
+3,/onlineSavings/reviewOpen,regesstion,Empty - amount,getapi,getapi,0,getapi,getapi,getapi,getapi,getapi,SMBA1103,false,Số tiền gửi tối thiểu là 500.000 VND.,active,CheckSyntax
+4,/onlineSavings/reviewOpen,regesstion,Empty - currency,getapi,getapi,getapi,,getapi,getapi,getapi,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+5,/onlineSavings/reviewOpen,regesstion,Empty - termId,getapi,getapi,getapi,getapi,,getapi,getapi,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+6,/onlineSavings/reviewOpen,regesstion,Empty - rate,getapi,getapi,getapi,getapi,getapi,0,getapi,getapi,COMM0002,false,,active,CheckSyntax
+7,/onlineSavings/reviewOpen,regesstion,Empty - finalTypeId,getapi,getapi,getapi,getapi,getapi,getapi,0,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+8,/onlineSavings/reviewOpen,regesstion,Empty - finalAccountNumber,getapi,getapi,getapi,getapi,getapi,getapi,getapi,,CORE0021,false,Quý khách vui lòng nhập đầy đủ thông tin.,active,CheckSyntax
+9,/onlineSavings/reviewOpen,regesstion,Empty - all field,,,0,,,0,0,,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+10,/onlineSavings/reviewOpen,regesstion,Invalid - accountNumber,getapi,3453,getapi,getapi,getapi,getapi,getapi,getapi,CORE0551,false,Số tài khoản không đúng.,active,CheckSyntax
+11,/onlineSavings/reviewOpen,regesstion,Invalid - amount,getapi,getapi,0,getapi,getapi,getapi,getapi,getapi,SMBA1103,false,Số tiền gửi tối thiểu là 500.000 VND.,active,CheckSyntax
+12,/onlineSavings/reviewOpen,regesstion,Invalid - currency,getapi,getapi,getapi,3453,getapi,getapi,getapi,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+13,/onlineSavings/reviewOpen,regesstion,Invalid - termId,getapi,getapi,getapi,getapi,3453,getapi,getapi,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+14,/onlineSavings/reviewOpen,regesstion,Invalid - rate,getapi,getapi,getapi,getapi,getapi,5747547457457574,getapi,getapi,COMM0002,false,,active,CheckSyntax
+15,/onlineSavings/reviewOpen,regesstion,Invalid - finalTypeId,getapi,getapi,getapi,getapi,getapi,getapi,0,getapi,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
+16,/onlineSavings/reviewOpen,regesstion,Invalid - finalAccountNumber,getapi,getapi,getapi,getapi,getapi,getapi,getapi,345353,CORE0267,false,Không có tài khoản để nhận gốc và lãi. Vui lòng kiểm tra lại.,active,CheckSyntax
+17,/onlineSavings/reviewOpen,regesstion,Invalid - all field,5345,,0,34535,34535,0,0,34535,COMM0002,false,Dịch vụ không thực hiện được lúc này. Quý khách vui lòng thử lại sau ít phút.,active,CheckSyntax
